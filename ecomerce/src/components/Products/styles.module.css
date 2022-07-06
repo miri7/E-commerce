@@ -1,0 +1,35 @@
+.productoContainer{
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 5px;
+    justify-items: center;
+    justify-content: center;
+    margin:10px;
+
+}
+.productoContainer.producto{
+   width: 100px;
+   display: flex;
+   flex-direction: column;   
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+
+   
+}
+ 
+.productoContainer.producto p{
+  font-weight: bold;
+  text-align: center;
+}
+.productoContainer.producto button{
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.productoContainer.producto button:hover{
+  background-color: #cecece;
+}

@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.contenedor{
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.contenedorcard{
+  
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.item{
+  float: left;
+  width: 23.5%;
+  margin-right:2% ;
+ 
+}
+.pinWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 1 calc(50% - 1em);
+}
+.contenido{
+  width: 600px;
+    height: 400px;
+    background: lightblue;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.itemcada{
+  background: tomato;
+  width: calc((100% - 30px) / 4);
+  margin-bottom: 10px;
+  flex: none;
+}
+.itemcada:nth-last-child(-n+4) {
+  margin-bottom: 0px;
+}
